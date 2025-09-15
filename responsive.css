@@ -1,0 +1,167 @@
+/* ----->>-----------------------for mini devices-----------<<------- */
+@media (max-width:572px) {
+    .HomeRight h2 {
+        font-size: 1rem;
+    }
+
+    .HomeRight h1 {
+        font-size: 1.5rem;
+    }
+
+    .action {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .userImage {
+        top: 16%;
+        left: 73%;
+    }
+
+    .userImage .image img {
+        height: 80px;
+        width: 80px;
+        border: 5px solid rgb(0, 0, 0);
+    }
+
+
+
+
+    .userImage {
+        height: 80px;
+        width: 80px;
+        box-shadow: 5px 5px 50px rgb(0, 0, 0);
+
+    }
+
+    .AllSlide {
+        position: absolute;
+        top: 56vh;
+        left: 60%;
+
+    }
+
+    .AllSlide .slider {
+        height: 30px;
+        width: 30px;
+        gap: 10px;
+    }
+
+    .slider .icon {
+        height: 25px;
+        width: 25px;
+
+    }
+
+    .AllSlide .slider:hover {
+        width: 150px;
+        cursor: pointer;
+    }
+
+    /* --------------------------About Section---------------- */
+
+    .about-col-2 p {
+        font-size: 1rem;
+        color: rgb(197, 209, 219);
+        overflow: hidden;
+
+    }
+}
+
+
+/* ----->>-----------------------for mediam devices----------------<<-- */
+@media (min-width:573px) and (max-width:991px) {
+
+    .userImage {
+        top: 18%;
+        left: 75%;
+        box-shadow: none;
+
+    }
+
+
+
+    .userImage .image img {
+        height: 200px;
+        width: 200px;
+        box-shadow: 10px 10px 30px white;
+    }
+
+    .action {
+        width: 100%;
+    }
+     /* --------------------------About Section---------------- */
+
+    .about-col-2 p {
+        font-size: 1.5rem;
+        color: rgb(197, 209, 219);
+        overflow: hidden;
+
+    }
+
+}
+
+/* -------->>--------------------for large devices----------------<<-- */
+@media (min-width:992px) and (max-width:1200px) {
+
+    .userImage {
+        top: 28%;
+        left: 75%;
+        /* box-shadow: none; */
+
+    }
+
+
+
+    .userImage .image img {
+        height: 250px;
+        width: 250px;
+        box-shadow: 10px 10px 30px white;
+    }
+
+    .action {
+        width: 100%;
+    }
+     /* --------------------------About Section---------------- */
+
+    .about-col-2 p {
+        font-size: 2rem;
+        color: rgb(197, 209, 219);
+        overflow: hidden;
+
+    }
+
+}
+
+/* >>---->>------------------------for xtra large devices---------------<<--- */
+@media (min-width:1200px) {
+
+    .userImage {
+        top: 50%;
+        left: 75%;
+        /* box-shadow: none; */
+
+    }
+
+
+
+    .userImage .image img {
+        height: 250px;
+        width: 250px;
+        box-shadow: 10px 10px 30px white;
+    }
+
+    .HomeRight {
+        display: flex;
+    }
+
+    .homepage .HomeRight {
+        gap: 20px;
+    }
+ /* --------------------------About Section---------------- */
+
+   
+}
